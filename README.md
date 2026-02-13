@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/25293102/README.md)
 # 🚑 Sanjeevani - Emergency Response System
 
 > **India's first hyper-local emergency response network.** Bridging the gap between immediate need and professional care in rural communities through smart technology and community Health Warriors.
