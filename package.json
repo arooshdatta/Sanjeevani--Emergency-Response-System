@@ -1,0 +1,46 @@
+{
+  "name": "sanjeevani",
+  "version": "1.0.0",
+  "description": "Health Emergency Response System",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "frontend:install": "cd frontend && npm install",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:preview": "cd frontend && npm run preview",
+    "frontend:test": "cd frontend && npm run test",
+    "frontend:lint": "cd frontend && npm run lint",
+    "backend:start": "cd backend/supabase && supabase start",
+    "backend:stop": "cd backend/supabase && supabase stop",
+    "setup": "npm install && npm run frontend:install",
+    "dev": "npm run frontend:dev",
+    "build": "npm run frontend:build"
+  },
+  "keywords": [
+    "health",
+    "emergency",
+    "response",
+    "medical",
+    "assistant",
+    "sos",
+    "alert"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "<your-github-repo-url>"
+  },
+  "bugs": {
+    "url": "<your-github-issues-url>"
+  },
+  "homepage": "<your-github-homepage-url>",
+  "dependencies": {
+    "react-webcam": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3"
+  }
+}

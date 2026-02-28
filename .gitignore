@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+yarn-error.log
+package-lock.json
+bun.lockb
+pnpm-lock.yaml
+
+# Production
+/build
+/dist
+/dist-ssr
+/.next
+/out
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cache
+.eslintcache
+.vite/
+.next/
+
+# Build outputs
+*.tsbuildinfo
+
+# Temp files
+*.tmp
